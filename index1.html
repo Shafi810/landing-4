@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>The Elite Closer | High-Ticket Mastery</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&amp;family=Manrope:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "secondary-fixed-dim": "#cac6be",
+                        "secondary-fixed": "#e7e2da",
+                        "on-secondary-fixed-variant": "#494741",
+                        "on-tertiary-fixed": "#1e1b16",
+                        "surface-container-low": "#1c1b1b",
+                        "on-secondary": "#32302b",
+                        "tertiary-fixed": "#e8e2d9",
+                        "secondary-container": "#494741",
+                        "tertiary-fixed-dim": "#ccc6bd",
+                        "on-background": "#e5e2e1",
+                        "on-primary": "#3d2e00",
+                        "on-surface": "#e5e2e1",
+                        "tertiary": "#ccc6be",
+                        "inverse-primary": "#755b00",
+                        "on-tertiary-container": "#433f39",
+                        "surface": "#131313",
+                        "surface-container": "#201f1f",
+                        "tertiary-container": "#b0aba3",
+                        "primary-fixed-dim": "#e6c364",
+                        "inverse-on-surface": "#313030",
+                        "outline-variant": "#4d4637",
+                        "on-tertiary-fixed-variant": "#4a4640",
+                        "error-container": "#93000a",
+                        "surface-tint": "#e6c364",
+                        "surface-variant": "#353534",
+                        "primary-container": "#c9a84c",
+                        "on-primary-fixed": "#241a00",
+                        "secondary": "#cac6be",
+                        "primary": "#e6c364",
+                        "surface-bright": "#3a3939",
+                        "on-secondary-fixed": "#1d1c17",
+                        "on-primary-container": "#503d00",
+                        "on-secondary-container": "#b9b5ad",
+                        "outline": "#99907e",
+                        "on-error-container": "#ffdad6",
+                        "on-primary-fixed-variant": "#584400",
+                        "surface-container-highest": "#353534",
+                        "on-surface-variant": "#d0c5b2",
+                        "primary-fixed": "#ffe08f",
+                        "inverse-surface": "#e5e2e1",
+                        "surface-container-lowest": "#0e0e0e",
+                        "error": "#ffb4ab",
+                        "on-tertiary": "#33302a",
+                        "background": "#131313",
+                        "surface-container-high": "#2a2a2a",
+                        "on-error": "#690005",
+                        "surface-dim": "#131313"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "fontFamily": {
+                        "headline": ["Playfair Display", "serif"],
+                        "body": ["Manrope", "sans-serif"],
+                        "label": ["Manrope", "sans-serif"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        body { font-family: 'Manrope', sans-serif; background-color: #0A0A0A; color: #F5F0E8; }
+        h1, h2, h3, .serif { font-family: 'Playfair Display', serif; }
+        .noise-overlay {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            pointer-events: none; opacity: 0.04; z-index: 9999;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+        }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-neutral-950 text-on-surface antialiased">
+<div class="noise-overlay"></div>
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-neutral-950/80 backdrop-blur-md">
+<div class="flex justify-between items-center w-full px-8 py-6 max-w-screen-2xl mx-auto">
+<span class="text-xl font-serif italic text-[#C9A84C]">The Elite Closer</span>
+<div class="hidden md:flex items-center space-x-12">
+<a class="text-neutral-400 hover:text-neutral-100 transition-colors font-sans text-xs uppercase tracking-widest" href="#curriculum">Curriculum</a>
+<a class="text-neutral-400 hover:text-neutral-100 transition-colors font-sans text-xs uppercase tracking-widest" href="#pricing">Pricing</a>
+<a class="text-neutral-400 hover:text-neutral-100 transition-colors font-sans text-xs uppercase tracking-widest" href="#faq">FAQ</a>
+<button class="bg-primary-container text-on-primary px-6 py-2 rounded-none font-label text-xs uppercase tracking-widest hover:scale-105 transition-transform duration-300">Apply Now</button>
+</div>
+<button class="md:hidden text-[#C9A84C]">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</nav>
+<!-- Section 2: Hero -->
+<header class="relative min-h-screen flex flex-col justify-center items-center text-center px-4 pt-20">
+<div class="absolute inset-0 z-0">
+<div class="absolute inset-0 bg-gradient-to-b from-neutral-950 via-transparent to-neutral-950 z-10"></div>
+<img alt="Hero background" class="w-full h-full object-cover grayscale opacity-20" data-alt="Modern luxury penthouse office at night overlooking a dark city skyline with golden lights reflecting on mahogany desk" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCZHuFdXy3N_Gk-zEgvOzbi9eWcICbswSAIkMwyQW5do5bZv1MPlvhhLpiGYBxCHiIYa5amrRBTwPGROtuadP2LftjhUMTeU2CRGPLDHDCqZmjDtKiRSJM6OeqJYBi8pNBy5IO2A3l1z_CuIbCnlUaGKVRCVoYk8JpTgRSnm8JnMsbLz-gdIUJuOiq-jVl7W1gga1JqUvBw8Tgb0dsSfvHgRVyL-sw2iRELcB8tsEw8gpEXzBXmRQ-plSjd1YB61Z76APcmn4prHn4a"/>
+</div>
+<div class="relative z-20 max-w-5xl mx-auto space-y-8">
+<h1 class="text-6xl md:text-8xl font-serif leading-tight tracking-tight text-on-surface">
+                Close More Deals. <br/><span class="italic text-primary">In 8 Weeks.</span>
+</h1>
+<p class="text-lg md:text-2xl font-body text-neutral-400 max-w-2xl mx-auto leading-relaxed">
+                The definitive mastery program for high-ticket sales professionals to double their close rate.
+            </p>
+<div class="pt-8">
+<button class="bg-primary text-on-primary px-12 py-5 rounded-none font-label text-sm uppercase tracking-[0.2em] font-bold hover:scale-105 transition-all shadow-xl shadow-primary/10">
+                    Reserve Your Spot
+                </button>
+<p class="mt-6 font-label text-xs uppercase tracking-widest text-neutral-500 italic">
+                    Enrollment closes Friday. <span class="text-primary font-bold">47 spots remaining.</span>
+</p>
+</div>
+</div>
+</header>
+<!-- Section 3: The Problem -->
+<section class="py-32 bg-neutral-950 px-8">
+<div class="max-w-screen-xl mx-auto">
+<div class="flex flex-col md:flex-row gap-16 items-start">
+<div class="md:w-1/3">
+<h2 class="text-4xl md:text-5xl font-serif leading-none sticky top-32">Sound <br/>Familiar?</h2>
+</div>
+<div class="md:w-2/3 space-y-24">
+<div class="group border-l border-neutral-800 pl-12 py-4 transition-all hover:border-primary">
+<span class="text-primary font-serif italic text-xl mb-4 block">01</span>
+<h3 class="text-2xl md:text-3xl font-body font-light text-neutral-300">You're losing deals at the finish line.</h3>
+</div>
+<div class="group border-l border-neutral-800 pl-12 py-4 transition-all hover:border-primary">
+<span class="text-primary font-serif italic text-xl mb-4 block">02</span>
+<h3 class="text-2xl md:text-3xl font-body font-light text-neutral-300">Your follow-up feels desperate, not dominant.</h3>
+</div>
+<div class="group border-l border-neutral-800 pl-12 py-4 transition-all hover:border-primary">
+<span class="text-primary font-serif italic text-xl mb-4 block">03</span>
+<h3 class="text-2xl md:text-3xl font-body font-light text-neutral-300">The "I need to think about it" objection is killing your pipeline.</h3>
+</div>
+<p class="text-2xl font-serif italic text-primary pt-12">
+                        There is a better way to command the room.
+                    </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 4: The Offer -->
+<section class="py-32 bg-surface-container-lowest px-8">
+<div class="max-w-screen-xl mx-auto space-y-20">
+<div class="max-w-2xl">
+<h2 class="text-5xl font-serif mb-8 text-on-surface">The Elite Closer</h2>
+<p class="text-xl text-neutral-400 leading-relaxed font-body">
+                    A rigorous 8-week immersion into the psychology of persuasion. We don't teach "lines"; we build commanders. You will master the invisible dynamics that dictate every high-stakes transaction.
+                </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+<div class="p-10 bg-neutral-900/50 backdrop-blur-sm border-t border-neutral-800">
+<span class="material-symbols-outlined text-primary text-4xl mb-6">psychology</span>
+<h4 class="text-xl font-serif mb-4">The Psychology of High-Stake Closers</h4>
+<p class="text-neutral-500 font-body text-sm leading-relaxed">Deconstruct the mental framework of the world's top 1% earners and how they perceive value.</p>
+</div>
+<div class="p-10 bg-neutral-900/50 backdrop-blur-sm border-t border-neutral-800">
+<span class="material-symbols-outlined text-primary text-4xl mb-6">shield</span>
+<h4 class="text-xl font-serif mb-4">Advanced Objection Handling Frameworks</h4>
+<p class="text-neutral-500 font-body text-sm leading-relaxed">Move past scripts. Learn to neutralize resistance before it even manifests into a verbal objection.</p>
+</div>
+<div class="p-10 bg-neutral-900/50 backdrop-blur-sm border-t border-neutral-800">
+<span class="material-symbols-outlined text-primary text-4xl mb-6">architecture</span>
+<h4 class="text-xl font-serif mb-4">The 8-Week Performance Blueprint</h4>
+<p class="text-neutral-500 font-body text-sm leading-relaxed">A step-by-step roadmap to re-engineering your sales process from lead intake to contract signed.</p>
+</div>
+</div>
+<div class="flex justify-center pt-12">
+<button class="bg-primary text-on-primary px-10 py-4 rounded-none font-label text-xs uppercase tracking-widest font-bold hover:scale-105 transition-all">
+                    Discover The Blueprint
+                </button>
+</div>
+</div>
+</section>
+<!-- Section 5: Social Proof -->
+<section class="py-32 bg-neutral-950 overflow-hidden">
+<div class="px-8 max-w-screen-xl mx-auto">
+<h2 class="text-center text-4xl font-serif mb-24">Results From Real People</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="bg-surface-container p-12 relative">
+<div class="mb-8">
+<img alt="Avatar" class="w-20 h-20 rounded-full object-cover border-2 border-primary/20" data-alt="Professional man in tailored charcoal suit, sophisticated studio portrait with dramatic lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBvFOz3tPqHBrd_q4GrmeBSB9H-hFpaX7OpTgqhNe1pQta1-jkEul7bfBVof7G8V9mAB_gadA8BestodY5ERvKCQybMbPUwOoPh_FM9heHUgkyDbUOCkT3R8PhicMCR_L6uCnKuETOJapVCvvxxLzPSztVH-DYj7FKK__f7HqUdacCAJ3bpWHAqX6BaTLpUmSln6DAW2gHyNxuNh1tTHuxTyenmETlm74uCHXUVfBzRPA36aYQZkhP9WPjCFTmKoQ3ThPt2gq--ykLe"/>
+</div>
+<p class="text-lg italic text-neutral-300 leading-relaxed font-body mb-8">
+                        "My close rate jumped from 15% to 42% in the first month. The psychological shifts taught here are worth 10x the investment."
+                    </p>
+<div>
+<h4 class="text-on-surface font-serif text-lg">Marcus Thorne</h4>
+<p class="text-primary text-xs uppercase tracking-widest">SaaS Enterprise Director</p>
+</div>
+</div>
+<div class="bg-surface-container p-12 relative transform md:-translate-y-8">
+<div class="mb-8">
+<img alt="Avatar" class="w-20 h-20 rounded-full object-cover border-2 border-primary/20" data-alt="Confident businesswoman in minimal high-end professional attire against a dark background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD0PDDMsZM9B6KMveM46y1CeGy5D7zHwquHAB9H23v71dNedtvg6MqQt4DwW0I26pSR_CPGo3fxDjNj8vZ9z4kad6SVJk59RIte3_WPXbreNKxb38da_KW6P56PayEC4ZcvxYEGnLYIE40pL6JZizgM6PBZkMI8GZlom8gkb1bG8zBJ3B0UuWkw86YPsKgm0s4LN209iyiLmjKmRuK-_Li6IubWeKKVaPEhp4UpsUtJOruc5sZIo-h40wZzrsTQRYh8Jz4LOqe6TfK8"/>
+</div>
+<p class="text-lg italic text-neutral-300 leading-relaxed font-body mb-8">
+                        "The objection handling framework finally gave me the confidence to hold my ground on pricing. I closed a $500k deal yesterday."
+                    </p>
+<div>
+<h4 class="text-on-surface font-serif text-lg">Sarah Jenkins</h4>
+<p class="text-primary text-xs uppercase tracking-widest">Luxury Real Estate Specialist</p>
+</div>
+</div>
+<div class="bg-surface-container p-12 relative">
+<div class="mb-8">
+<img alt="Avatar" class="w-20 h-20 rounded-full object-cover border-2 border-primary/20" data-alt="Man with refined features wearing a black turtleneck, artistic high-contrast lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDD7zCyiq_AwYk-yiZNskWj4l84fPZ-HVRr3yFxQ4QQlR9La47brtv1WNN6PQq8Z_HR9PFNEZRr1r7V2ancERebCuCDOx4RcLUL9Skgbl_pTlPDN1w70dxJR1-KDZgmlxa92EXqHs49klytUSdCqKjsBW_8hCRSPN7u9J7Z2Bct2Wjh07s8IgK7zBwGChyIpnJVa5naQ5e2_-t5dlvoHeOohzTs_lwhaYAyu5ko5Hho7Q7nncqjyRl38LWyOgyRDJMAaKde7EfPdAH5"/>
+</div>
+<p class="text-lg italic text-neutral-300 leading-relaxed font-body mb-8">
+                        "The 8-week performance blueprint is the most structured approach to sales I've ever seen. Pure tactical brilliance."
+                    </p>
+<div>
+<h4 class="text-on-surface font-serif text-lg">David Chen</h4>
+<p class="text-primary text-xs uppercase tracking-widest">Agency Founder</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 6: Qualification -->
+<section class="py-32 bg-surface-container-low px-8">
+<div class="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-24">
+<div>
+<h2 class="text-3xl font-serif mb-12 border-b border-primary/30 pb-4 inline-block">This Is For You If...</h2>
+<ul class="space-y-8">
+<li class="flex items-start space-x-4">
+<span class="material-symbols-outlined text-primary mt-1">check_circle</span>
+<p class="text-neutral-300 font-body">You sell products or services valued at $5,000 or more.</p>
+</li>
+<li class="flex items-start space-x-4">
+<span class="material-symbols-outlined text-primary mt-1">check_circle</span>
+<p class="text-neutral-300 font-body">You are tired of "winging it" and want a repeatable system.</p>
+</li>
+<li class="flex items-start space-x-4">
+<span class="material-symbols-outlined text-primary mt-1">check_circle</span>
+<p class="text-neutral-300 font-body">You have ambition to reach the top 1% of earners in your industry.</p>
+</li>
+</ul>
+</div>
+<div>
+<h2 class="text-3xl font-serif mb-12 border-b border-neutral-700 pb-4 inline-block">This Is NOT For You If...</h2>
+<ul class="space-y-8">
+<li class="flex items-start space-x-4">
+<span class="material-symbols-outlined text-error mt-1">close</span>
+<p class="text-neutral-500 font-body">You are looking for a "get rich quick" shortcut with zero work.</p>
+</li>
+<li class="flex items-start space-x-4">
+<span class="material-symbols-outlined text-error mt-1">close</span>
+<p class="text-neutral-500 font-body">You sell low-ticket commodities where price is the only lever.</p>
+</li>
+<li class="flex items-start space-x-4">
+<span class="material-symbols-outlined text-error mt-1">close</span>
+<p class="text-neutral-500 font-body">You are unwilling to record and review your own sales calls.</p>
+</li>
+</ul>
+</div>
+</div>
+</section>
+<!-- Section 7: Curriculum -->
+<section class="py-32 bg-neutral-950 px-8" id="curriculum">
+<div class="max-w-4xl mx-auto">
+<h2 class="text-5xl font-serif mb-16 text-center">What You Get</h2>
+<div class="space-y-4">
+<!-- Module 1: Open -->
+<div class="bg-surface-container-low p-8 border-l-4 border-primary">
+<div class="flex justify-between items-center cursor-pointer">
+<h3 class="text-xl font-body font-semibold">Module 01: Foundation of Authority</h3>
+<span class="material-symbols-outlined text-primary">keyboard_arrow_up</span>
+</div>
+<div class="mt-6 text-neutral-400 font-body leading-relaxed">
+                        Establishing your status before the call begins. Mastering vocal tonality, physical presence, and the "Expert Frame" that eliminates common objections before they start.
+                    </div>
+</div>
+<!-- Module 2 -->
+<div class="bg-surface-container-low p-8 hover:bg-surface-container transition-colors cursor-pointer">
+<div class="flex justify-between items-center">
+<h3 class="text-xl font-body">Module 02: The Discovery Call Mastery</h3>
+<span class="material-symbols-outlined text-neutral-600">keyboard_arrow_down</span>
+</div>
+</div>
+<!-- Module 3 -->
+<div class="bg-surface-container-low p-8 hover:bg-surface-container transition-colors cursor-pointer">
+<div class="flex justify-between items-center">
+<h3 class="text-xl font-body">Module 03: Emotional Intelligence in Sales</h3>
+<span class="material-symbols-outlined text-neutral-600">keyboard_arrow_down</span>
+</div>
+</div>
+<!-- Module 4 -->
+<div class="bg-surface-container-low p-8 hover:bg-surface-container transition-colors cursor-pointer">
+<div class="flex justify-between items-center">
+<h3 class="text-xl font-body">Module 04: Closing Dynamics</h3>
+<span class="material-symbols-outlined text-neutral-600">keyboard_arrow_down</span>
+</div>
+</div>
+<!-- Module 5 -->
+<div class="bg-surface-container-low p-8 hover:bg-surface-container transition-colors cursor-pointer">
+<div class="flex justify-between items-center">
+<h3 class="text-xl font-body">Module 05: The Post-Sale Loyalty Loop</h3>
+<span class="material-symbols-outlined text-neutral-600">keyboard_arrow_down</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 8: Pricing -->
+<section class="py-32 px-8 bg-surface-container-lowest" id="pricing">
+<div class="max-w-screen-xl mx-auto">
+<div class="max-w-2xl mx-auto bg-neutral-900 p-16 relative overflow-hidden">
+<div class="absolute top-0 right-0 bg-primary px-8 py-2 text-on-primary font-label text-xs uppercase tracking-[0.2em] font-bold transform rotate-45 translate-x-10 translate-y-4">
+                    Strictly Limited
+                </div>
+<div class="text-center space-y-6">
+<h2 class="text-2xl font-label text-primary uppercase tracking-[0.3em]">Full Access Enrollment</h2>
+<div class="text-7xl font-serif text-on-surface">$2,997</div>
+<p class="text-neutral-500 font-body">Or 3 monthly payments of $1,099</p>
+<div class="py-12 border-y border-neutral-800 my-10">
+<ul class="text-left space-y-4 max-w-sm mx-auto">
+<li class="flex items-center space-x-3">
+<span class="material-symbols-outlined text-primary text-sm">check</span>
+<span class="text-neutral-300 font-body">Complete 8-Week Video Mastery</span>
+</li>
+<li class="flex items-center space-x-3">
+<span class="material-symbols-outlined text-primary text-sm">check</span>
+<span class="text-neutral-300 font-body">Bi-Weekly Live Coaching Calls</span>
+</li>
+<li class="flex items-center space-x-3">
+<span class="material-symbols-outlined text-primary text-sm">check</span>
+<span class="text-neutral-300 font-body">Private Peer-Mastermind Access</span>
+</li>
+<li class="flex items-center space-x-3">
+<span class="material-symbols-outlined text-primary text-sm">check</span>
+<span class="text-neutral-300 font-body">Sales Call Audit Library</span>
+</li>
+<li class="flex items-center space-x-3">
+<span class="material-symbols-outlined text-primary text-sm">check</span>
+<span class="text-neutral-300 font-body">Objection Handling Cheat Sheets</span>
+</li>
+</ul>
+</div>
+<button class="w-full bg-primary text-on-primary py-6 rounded-none font-label text-sm uppercase tracking-widest font-bold hover:scale-102 transition-transform">
+                        Secure Your Enrollment
+                    </button>
+<p class="text-xs text-neutral-500 font-body pt-4">Risk-free. 14-day 100% refund guarantee.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 9: FAQ -->
+<section class="py-32 bg-neutral-950 px-8" id="faq">
+<div class="max-w-3xl mx-auto">
+<h2 class="text-4xl font-serif mb-16 text-center">Frequently Asked Questions</h2>
+<div class="space-y-6">
+<div class="border-b border-neutral-800 pb-6">
+<h4 class="text-lg font-serif mb-3 flex justify-between items-center cursor-pointer">
+                        How much time per week?
+                        <span class="material-symbols-outlined text-primary">add</span>
+</h4>
+</div>
+<div class="border-b border-neutral-800 pb-6">
+<h4 class="text-lg font-serif mb-3 flex justify-between items-center cursor-pointer">
+                        Is this for beginners?
+                        <span class="material-symbols-outlined text-primary">add</span>
+</h4>
+</div>
+<div class="border-b border-neutral-800 pb-6">
+<h4 class="text-lg font-serif mb-3 flex justify-between items-center cursor-pointer">
+                        What if I don't see results?
+                        <span class="material-symbols-outlined text-primary">add</span>
+</h4>
+</div>
+<div class="border-b border-neutral-800 pb-6">
+<h4 class="text-lg font-serif mb-3 flex justify-between items-center cursor-pointer">
+                        Are the sessions recorded?
+                        <span class="material-symbols-outlined text-primary">add</span>
+</h4>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 10: Final CTA -->
+<section class="py-40 bg-primary-container text-on-primary-container px-8 relative overflow-hidden">
+<div class="absolute inset-0 opacity-10 pointer-events-none">
+<img alt="texture" class="w-full h-full object-cover grayscale" data-alt="Interior of a luxury modern library with tall shelves and warm light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDtSxBQofBAxkVCB-q79Lyai5t7qhmMR9_uyJJSRrwzMsqw7cmjN5DzkwbA24VBMpGDRmPiWUYogJ3fOfBFVh2Iv_nr5S-0H_RfW2LqILrU667Cs1bVKrSD1lRz8KTsYlX2kpjwO5QGg5vVh2xKjxhgibT742QhsantmUHxLjv6ftG3gDLfxZv4xCH0KJ0lo55yaFL3oHVN88qJRk8UvkcRhC7tHYpwl2V_P33J1e2M9ZDpIOZ434pY0eQH7jURHZuBJH02N5d7Z9pZ"/>
+</div>
+<div class="max-w-4xl mx-auto text-center relative z-10">
+<h2 class="text-5xl md:text-7xl font-serif mb-8 text-on-primary">The Window is Closing.</h2>
+<p class="text-xl md:text-2xl font-body mb-16 text-on-primary/80 max-w-2xl mx-auto">
+                Will you be the one closing the next $100k deal, or will you be the one explaining why you missed it?
+            </p>
+<div class="grid grid-cols-4 gap-4 max-w-sm mx-auto mb-16">
+<div class="text-center">
+<div class="text-4xl font-serif">05</div>
+<div class="text-[10px] uppercase tracking-widest font-bold">Days</div>
+</div>
+<div class="text-center border-l border-on-primary/20">
+<div class="text-4xl font-serif">12</div>
+<div class="text-[10px] uppercase tracking-widest font-bold">Hours</div>
+</div>
+<div class="text-center border-l border-on-primary/20">
+<div class="text-4xl font-serif">43</div>
+<div class="text-[10px] uppercase tracking-widest font-bold">Mins</div>
+</div>
+<div class="text-center border-l border-on-primary/20">
+<div class="text-4xl font-serif">18</div>
+<div class="text-[10px] uppercase tracking-widest font-bold">Secs</div>
+</div>
+</div>
+<button class="bg-on-primary text-primary px-16 py-6 rounded-none font-label text-sm uppercase tracking-[0.25em] font-bold shadow-2xl hover:scale-105 transition-all">
+                Apply for Elite Status
+            </button>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-neutral-950 w-full py-12 border-t border-neutral-800/20">
+<div class="flex flex-col md:flex-row justify-between items-center px-12 space-y-4 md:space-y-0 max-w-screen-2xl mx-auto">
+<span class="text-lg font-serif text-white italic">The Elite Closer</span>
+<div class="flex space-x-8">
+<a class="text-neutral-500 font-sans text-xs uppercase tracking-widest hover:text-[#C9A84C] transition-colors" href="#">Privacy Policy</a>
+<a class="text-neutral-500 font-sans text-xs uppercase tracking-widest hover:text-[#C9A84C] transition-colors" href="#">Terms of Service</a>
+<a class="text-neutral-500 font-sans text-xs uppercase tracking-widest hover:text-[#C9A84C] transition-colors" href="#">Contact</a>
+</div>
+<p class="text-neutral-500 font-sans text-xs uppercase tracking-widest">© 2024 The Elite Closer. All rights reserved.</p>
+</div>
+</footer>
+</body></html>
